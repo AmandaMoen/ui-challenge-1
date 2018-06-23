@@ -1,0 +1,136 @@
+/*For Desktop view of 768px-960px*/
+@media screen and (min-width: 768px){
+#list ul {
+	display: grid;
+	grid-template-areas:
+	"a a a a a"
+	"b c c d d"
+	"b e f g h"
+	"b i i i i";
+}
+
+#a {
+	grid-area: a;
+	height: 100px;
+	background-color: red;
+	text-align: left;
+}
+
+#b {
+	grid-area: b;
+	height: 600px;
+	background-color: orange;
+}
+
+#c {
+	grid-area: c;
+	height: 200px;
+	background-color: yellow;
+}
+
+#d {
+	grid-area: d;
+	height: 200px;
+	background-color: green;
+}
+
+#e {
+	grid-area: e;
+	height: 250px;
+	background-color: blue;
+}
+
+#f {
+	grid-area: f;
+	height: 250px;
+	background-color: indigo;
+}
+
+#g {
+	grid-area: g;
+	height: 250px;
+	background-color: purple;
+}
+
+#h {
+	grid-area: h;
+	height: 250px;
+	background-color: violet;
+}
+
+#i {
+	grid-area: i;
+	height: 150px;
+	background-color: pink;
+}
+
+}
+
+/*For Mobile Web Design*/
+@media screen and (max-width: 768px) {
+#list ul {
+  	display: grid | inline-grid;
+  	grid-template-areas: 
+  	"a a"
+    "b b"
+    "c c"
+    "d d"
+    "e f"
+    "g h"
+    "i i";
+}
+
+#a {
+	grid-area: a;
+	height: 75px;
+	background-color: red;
+}
+
+#b {
+	grid-area: b;
+	height: 150px;
+	background-color: orange;
+}
+
+#c {
+	grid-area: c;
+	height: 125px;
+	background-color: yellow;
+}
+
+#d {
+	grid-area: d;
+	height: 125px;
+	background-color: green;
+}
+
+#e {
+	grid-area: e;
+	height: 250px;
+	background-color: blue;
+}
+
+#f {
+	grid-area: f;
+	height: 250px;
+	background-color: indigo;
+}
+
+#g {
+	grid-area: g;
+	height: 250px;
+	background-color: purple;
+}
+
+#h {
+	grid-area: h;
+	height: 250px;
+	background-color: violet;
+}
+
+#i {
+	grid-area: i;
+	height: 80px;
+	background-color: pink;
+}
+} 
