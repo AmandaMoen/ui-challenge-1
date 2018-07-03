@@ -69,7 +69,7 @@
 /*For Mobile Web Design*/
 @media screen and (max-width: 768px) {
 #list ul {
-  	display: grid | inline-grid;
+  	display: grid;
   	grid-template-areas: 
   	"a a"
     "b b"
